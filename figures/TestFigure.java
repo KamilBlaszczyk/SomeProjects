@@ -2,7 +2,7 @@ package interfejs_figury;
 
 import java.util.Scanner;
 
-public class TestFigura {
+public class TestFigure {
 
     public static void main(String[] args) {
 

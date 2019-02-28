@@ -1,15 +1,15 @@
-package interfejs_figury;
+package figures;
 
-public class Prostokat implements Figura{
+public class Rectangle implements Figure{
 
     double a;
     double b;
 
-    Prostokat(double a,double b){
+    Rectangle(double a,double b){
         this.a=a; this.b=b;
     }
 
-    Prostokat(){
+    Rectangle(){
         a=0;
         b=0;
     }

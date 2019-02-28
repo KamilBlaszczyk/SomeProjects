@@ -1,11 +1,13 @@
-package interfejs_figury;
+package figures;
 
-public class Trojkat implements Figura {
+import figures.Figure;
+
+public class Triangle implements Figure {
 
     double a;
     double h;
 
-    Trojkat(){
+    Triangle(){
         a=0;
         h=0;
     }

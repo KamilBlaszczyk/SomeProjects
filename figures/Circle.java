@@ -1,14 +1,14 @@
-package interfejs_figury;
+package figures;
 
-public class Kolo implements Figura{
+public class Circle implements Figure{
 
     double promien;
 
-    Kolo(double promien){
+    Circle(double promien){
         this.promien=promien;
     }
 
-    Kolo(){
+    Circle(){
         promien=0;
     }
 
