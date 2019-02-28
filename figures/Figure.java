@@ -1,6 +1,6 @@
-package interfejs_figury;
+package figures;
 
-public interface Figura {
+public interface Figure {
     public double obliczPole();
     public double obliczObw();
 }
